@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Community Uplift Initiative</title>
+  <meta name="description" content="Community Uplift connects volunteers, educators, and resources to support learning in rural areas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__inner">
+      <h1>Community Uplift</h1>
+      <p>Empowering rural classrooms with skilled volunteers, open educational resources, and sustainable technology.</p>
+      <a class="btn" href="#programs">Explore our programs</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section highlights" id="about">
+      <div class="section__intro">
+        <h2>Why we exist</h2>
+        <p>Many rural learners face limited access to qualified teachers, updated learning materials, and mentorship. Community Uplift bridges that gap by connecting professionals, students, and creators with schools that could use an extra hand.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Volunteer Network</h3>
+          <p>Medical, engineering, and creative professionals offer weekly remote sessions covering STEM, health, and the arts.</p>
+        </article>
+        <article class="card">
+          <h3>Resource Library</h3>
+          <p>We curate open-licensed lesson plans, coding challenges, and reading materials tailored to South African curricula.</p>
+        </article>
+        <article class="card">
+          <h3>Tech Bridges</h3>
+          <p>Partner organisations help install low-power computer labs and introduce AI tools that run offline.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="programs">
+      <h2>Flagship programs</h2>
+      <div class="grid grid--programs">
+        <article class="program">
+          <h3>Future Coders Club</h3>
+          <p>Saturday workshops introducing Grade 8–11 learners to HTML, CSS, and Python using offline-first curricula.</p>
+          <ul>
+            <li>12 partner schools in KwaZulu-Natal</li>
+            <li>Mentors drawn from local universities</li>
+            <li>Project-based learning with community themes</li>
+          </ul>
+        </article>
+        <article class="program">
+          <h3>STEM on Wheels</h3>
+          <p>A mobile lab that brings science experiments, 3D printing demos, and robotics kits to remote classrooms every month.</p>
+          <ul>
+            <li>20 rural stops per quarter</li>
+            <li>Hands-on sessions for both learners and teachers</li>
+            <li>Offline video library available after each visit</li>
+          </ul>
+        </article>
+        <article class="program">
+          <h3>Health Voices</h3>
+          <p>Healthcare professionals host bilingual webinars on wellness, nutrition, and careers in health sciences.</p>
+          <ul>
+            <li>Monthly Q&amp;A panels</li>
+            <li>Community radio partnership for wider reach</li>
+            <li>Resource packs translated into isiZulu and isiXhosa</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--accent" id="impact">
+      <h2>Impact snapshots</h2>
+      <div class="stats">
+        <div class="stat">
+          <span class="stat__number">3,400+</span>
+          <span class="stat__label">Learners engaged</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number">180</span>
+          <span class="stat__label">Active volunteers</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number">45</span>
+          <span class="stat__label">Partner schools</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" aria-label="Testimonials">
+      <h2>Voices from the community</h2>
+      <div class="carousel">
+        <figure>
+          <blockquote>
+            “Our learners now stay after school to complete the coding challenges. It has changed the way they think about technology.”
+          </blockquote>
+          <figcaption>— Ms. Khumalo, ICT Teacher, uMgungundlovu</figcaption>
+        </figure>
+        <figure>
+          <blockquote>
+            “The STEM on Wheels team helped us set up low-cost experiments we can repeat every term. Learners love it.”
+          </blockquote>
+          <figcaption>— Mr. Dube, Science Head, Bergville</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer__inner">
+      <div>
+        <h2>Get involved</h2>
+        <p>Email <a href="mailto:community@uplift.org">community@uplift.org</a> to mentor, donate resources, or request a partnership.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#impact">Impact</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Community Uplift Initiative</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
